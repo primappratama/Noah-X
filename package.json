@@ -2,7 +2,7 @@
   "name": "noah-theme",
   "displayName": "Noah Theme",
   "description": "Minimalist Theme for Coding",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.102.0"
   },
