@@ -2,6 +2,7 @@
   "name": "noah-x",
   "displayName": "Noah X",
   "publisher": "primappratamaa",
+  "icon": "icon.png",
   "description": "Dark theme with muted colors, designed for comfort and focus.",
   "version": "0.1.1",
   "engines": {
