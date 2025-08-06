@@ -13,4 +13,3 @@ Noah X is a dark minimalist-like theme with blue tones.
 
 ## Author
 Created by Noah
-

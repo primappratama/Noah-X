@@ -4,7 +4,7 @@
   "displayName": "Noah X", // Nama yang muncul di VS Code
 	"description": "Dark theme with muted colors, designed for comfort and focus.", // Deskripsi tema
 	"version": "1.0.0", // Versi tema
-	"publisher": "noahzkiel", // Nama publisher
+	"publisher": "Prima Pratama", // Nama publisher
 	"engines": {
 		"vscode": "^1.60.0" // Versi minimum VS Code yang didukung
 	}, // Versi engine yang didukung
