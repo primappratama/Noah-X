@@ -1,0 +1,761 @@
+{
+  // === THEME INFO ===
+  "name": "noah-x", // ID internal theme
+  "displayName": "Noah X", // Nama yang muncul di VS Code
+	"description": "Dark theme with muted colors, designed for comfort and focus.", // Deskripsi tema
+	"version": "1.0.0", // Versi tema
+	"publisher": "noahzkiel", // Nama publisher
+	"engines": {
+		"vscode": "^1.60.0" // Versi minimum VS Code yang didukung
+	}, // Versi engine yang didukung
+	"categories": ["Themes"], // Kategori tema
+	"keywords": ["dark", "noah", "theme", "color"], // Kata kunci untuk pencarian
+	"contributes": {
+		"themes": [
+			{
+				"label": "Noah X",
+				"uiTheme": "vs-dark", // Tipe UI yang didukung
+				"path": "./themes/Noah Theme-color-theme.json" // Path ke file tema
+			}
+		]
+	}, // Kontribusi tema
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/primappratama/Noah-X.git"
+	},
+	"license": "MIT",
+  "type": "dark", // Tipe theme (dark/light)
+
+  "colors": {
+    // === ICON & GENERAL ===
+    "icon.foreground": "#FFF", // Warna icon umum
+
+    // === ACTIVITY BAR (Sidebar kiri dengan icon Explorer, Search, dll) ===
+    "activityBar.background": "#000", // Background activity bar
+    "activityBar.foreground": "#FFF", // Warna icon normal
+    "activityBar.inactiveForeground": "#A0A0A0", // Icon yang ga aktif
+
+    "activityBarBadge.background": "#910000", // Background bulatan notifikasi
+    "activityBarBadge.foreground": "#FFF", // Angka di notifikasi
+
+    // === BADGE & BREADCRUMB ===
+    "badge.background": "#000", // Background badge umum
+    "badge.foreground": "#FFF", // Text badge
+
+    "breadcrumb.activeSelectionForeground": "#FFF", // Breadcrumb aktif (File > Folder > Current)
+    "breadcrumb.focusForeground": "#FFF", // Breadcrumb focus
+    "breadcrumb.foreground": "#A0A0A0", // Breadcrumb normal
+    "breadcrumbPicker.background": "#000", // Background dropdown breadcrumb
+
+    // === BUTTON ===
+    "button.background": "#FFF", // Background button
+    "button.foreground": "#000", // Text button
+    "button.hoverBackground": "#F0F0F0", // Button waktu hover
+
+    // === DIFF EDITOR (Git compare) ===
+    "diffEditor.insertedTextBackground": "#64d3892c", // Background text yang ditambah
+    "diffEditor.removedTextBackground": "#dd50742c", // Background text yang dihapus
+    "diffEditor.diagonalFill": "#151515", // Fill area kosong
+
+    // === DESCRIPTION & DROPDOWN ===
+    "descriptionForeground": "#6B6B6B79", // Text deskripsi
+    "dropdown.background": "#151515", // Background dropdown
+    "dropdown.foreground": "#D5D5D599", // Text dropdown
+
+    // === EDITOR (Area nulis kode utama) ===
+    "editor.background": "#000", // Background editor
+
+    "editorCodeLens.foreground": "#2A2A2A", // CodeLens (info di atas function)
+
+    // === EDITOR GROUP (Group tab) ===
+    "editorGroup.background": "#000", // Background group editor
+    "editorGroup.border": "#151515", // Border antar group
+    "editorGroup.dropBackground": "#000", // Background waktu drag tab
+    "editorGroup.emptyBackground": "#000", // Background group kosong
+    "editorGroupHeader.tabsBackground": "#000", // Background area tab
+
+    // === FIND & SEARCH ===
+    "editor.findMatchBackground": "#D32F2F80", // Background hasil search aktif
+    "editor.findMatchHighlightBackground": "#E573733B", // Background hasil search lain
+
+    // === LINE NUMBERS & CURSOR ===
+    "editorLineNumber.activeForeground": "#6B6B6BD8", // Nomor baris aktif (tempat cursor)
+    "editorLineNumber.foreground": "#2E2E2EBB", // Nomor baris normal
+    "editorCursor.background": "#000", // Background cursor
+    "editorCursor.foreground": "#FFF", // Warna cursor
+
+    // === SELECTION (Text yang diselect) ===
+    "editor.selectionBackground": "#2E2E2E", // Background text yang diselect
+    "editor.inactiveSelectionBackground": "#2E2E2Ebe", // Selection di editor yang ga aktif
+    "editor.selectionHighlightBackground": "#2E2E2EB3", // Highlight selection lain
+
+    // === WORD HIGHLIGHT (Double-click word) ===
+    "editor.wordHighlightBackground": "#2E2E2EB3", // Background word yang sama
+    "editor.wordHighlightStrongBackground": "#2E2E2EB3", // Background write access
+
+    // === WIDGET (Autocomplete, hover info) ===
+    "editorWidget.background": "#000", // Background popup autocomplete
+    "editorWidget.border": "#F0F0F0", // Border widget
+
+    // === EXTENSION BUTTON ===
+    "extensionButton.prominentBackground": "#FFF", // Background button extension
+    "extensionButton.prominentForeground": "#000", // Text button extension
+
+    // === GENERAL ===
+    "focusBorder": "#F0F0F0", // Border focus umum
+    "foreground": "#A0A0A0", // Text color umum
+
+    // === GIT DECORATION (Warna file di explorer - Muted Version) ===
+    "gitDecoration.addedResourceForeground": "#66BB6A80", // File baru (A) - Hijau muted
+    "gitDecoration.deletedResourceForeground": "#EF535080", // File dihapus (D) - Merah muted
+    "gitDecoration.ignoredResourceForeground": "#666666", // File di .gitignore - Abu-abu
+    "gitDecoration.modifiedResourceForeground": "#AB47BC80", // File diubah (M) - Ungu muted
+    "gitDecoration.untrackedResourceForeground": "#888888", // File belum di-track (U) - Abu terang
+
+    // === LIST (File explorer, command palette, dll) ===
+    "list.activeSelectionBackground": "#000", // Background item yang dipilih
+    "list.activeSelectionForeground": "#FFF", // Text item yang dipilih
+    "list.hoverBackground": "#0A0A0A", // Background hover
+    "list.hoverForeground": "#FFF", // Text hover
+    "list.focusBackground": "#01030b", // Background focus
+    "list.focusForeground": "#FFF", // Text focus
+    "list.inactiveFocusBackground": "#01030b", // Focus di window ga aktif
+    "list.inactiveSelectionBackground": "#000", // Selection di window ga aktif
+    "list.inactiveSelectionForeground": "#FFF", // Text selection ga aktif
+
+    "list.highlightForeground": "#FFF", // Text yang match search
+    "list.dropBackground": "#000", // Background drop area
+
+    "list.errorForeground": "#EF5350", // Text error di list
+    "list.warningForeground": "#FFB74D", // Text warning di list
+
+    // === INPUT (Search box, rename field, dll) ===
+    "input.background": "#000", // Background input field
+    "input.foreground": "#A0A0A0", // Text di input
+    "inputOption.activeForeground": "#FFF", // Option aktif di input
+    "inputValidation.errorBackground": "#EF5350", // Background error validation
+    "inputValidation.errorBorder": "#EF5350", // Border error validation
+    "inputValidation.errorForeground": "#000", // Text error validation
+
+    // === QUICK INPUT (Command palette) ===
+    "quickInput.background": "#000", // Background command palette
+
+    // === NOTIFICATIONS ===
+    "notificationCenterHeader.background": "#000", // Header notification center
+    "notifications.background": "#000", // Background notification
+
+    // === PANEL (Terminal, Output, Problems) ===
+    "panel.border": "#151515", // Border panel
+    "panelTitle.activeBorder": "#FFF", // Border tab panel aktif
+    "panelTitle.activeForeground": "#FFF", // Text tab panel aktif
+    "panelTitle.inactiveForeground": "#A0A0A0", // Text tab panel ga aktif
+
+    // === PEEK VIEW (Go to definition popup) ===
+    "peekViewTitle.background": "#000", // Background title peek view
+
+    // === SCROLLBAR ===
+    "scrollbar.shadow": "#000", // Shadow scrollbar
+    "scrollbarSlider.activeBackground": "#A0A0A0", // Slider scrollbar aktif
+    "scrollbarSlider.background": "#2A2A2A", // Slider scrollbar normal
+    "scrollbarSlider.hoverBackground": "#A0A0A0", // Slider scrollbar hover
+
+    // === SELECTION UMUM ===
+    "selection.background": "#000", // Background selection umum
+
+    // === SIDEBAR (File explorer) ===
+    "sideBar.background": "#000", // Background sidebar
+    "sideBar.border": "#151515", // Border sidebar
+    "sideBarSectionHeader.background": "#000", // Background header (EXPLORER, etc)
+    "sideBarSectionHeader.foreground": "#FFF", // Text header sidebar
+
+    // === STATUS BAR (Bar bawah) ===
+    "statusBar.background": "#000", // Background status bar
+    "statusBar.foreground": "#FFF", // Text status bar
+    "statusBar.debuggingBackground": "#910000", // Background waktu debugging
+
+    // === TABS (Tab file) ===
+    "tab.activeBackground": "#000", // Background tab aktif
+    "tab.activeBorder": "#FFF", // Border bawah tab aktif
+    "tab.activeForeground": "#FFF", // Text tab aktif
+    "tab.border": "#000", // Border tab
+    "tab.inactiveBackground": "#000", // Background tab ga aktif
+    "tab.inactiveForeground": "#A0A0A0", // Text tab ga aktif
+
+    // === TERMINAL ===
+    "terminal.foreground": "#FFF", // Text terminal
+    "terminal.ansiRed": "#EF5350", // Warna merah terminal
+    "terminal.ansiBrightRed": "#EF5350", // Warna merah terang terminal
+    "terminal.ansiGreen": "#66BB6A", // Warna hijau terminal
+    "terminal.ansiBlue": "#4A9EFF", // Blue consistent
+    "terminal.ansiYellow": "#CCCCCC", // Light gray
+    "terminal.ansiMagenta": "#CCCCCC", // Light gray
+    "terminal.ansiCyan": "#CCCCCC", // Light gray
+    "terminal.ansiWhite": "#FFFFFF", // White
+    "terminal.ansiBlack": "#000000", // Black
+
+    // === TEXT LINK ===
+    "textLink.foreground": "#FFF", // Warna link
+
+    // === TITLE BAR (Bar atas window) ===
+    "titleBar.activeBackground": "#000", // Background title bar aktif
+    "titleBar.inactiveBackground": "#000", // Background title bar ga aktif
+    "titleBar.activeForeground": "#FFF", // Text title bar
+
+    // === TREE (Indent guides di file explorer) ===
+    "tree.indentGuidesStroke": "#A0A0A0", // Garis indent
+
+    // === WIDGET SHADOW ===
+    "widget.shadow": "#000" // Shadow widget umum
+  },
+
+  // === SYNTAX HIGHLIGHTING (Warna kode) ===
+  "tokenColors": [
+    {
+      "name": "Comment", // KOMENTAR
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic", // Miring
+        "foreground": "#6E6E6E" // Abu-abu
+      }
+    },
+    {
+      "name": "Variables", // VARIABEL
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "#FFF" // Putih
+      }
+    },
+    {
+      "name": "Colors", // WARNA CSS
+      "scope": ["constant.other.color"],
+      "settings": {
+        "foreground": "#FFF" // Putih
+      }
+    },
+    {
+      "name": "Invalid", // SYNTAX ERROR
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#EF5350" // Merah
+      }
+    },
+    {
+      "name": "Keyword, Storage", // KEYWORD (if, function, const, dll)
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#4A9EFF" // BIRU MUDA
+      }
+    },
+    {
+      "name": "Operator, Misc", // OPERATOR & PUNCTUATION (=, +, {}, dll)
+      "scope": [
+        "keyword.control",
+        "constant.other.color",
+        "punctuation",
+        "meta.tag",
+        "punctuation.definition.tag",
+        "punctuation.separator.inheritance.php",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.section.embedded",
+        "keyword.other.template",
+        "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "#FFF" // Putih
+      }
+    },
+    {
+      "name": "Tag", // HTML TAGS (<div>, <p>, dll)
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#4A9EFF" // BIRU MUDA
+      }
+    },
+    {
+      "name": "Function, Special Method", // FUNCTIONS (console.log, dll)
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#4A9EFF" // BIRU MUDA
+      }
+    },
+    {
+      "name": "Block Level Variables", // VARIABEL DALAM BLOCK
+      "scope": ["meta.block variable.other"],
+      "settings": {
+        "foreground": "#FFF" // Merah muda
+      }
+    },
+    {
+      "name": "Other Variable, String Link", // VARIABEL LAIN & LINK
+      "scope": ["support.other.variable", "string.other.link"],
+      "settings": {
+        "foreground": "#FFF" // Merah muda
+      }
+    },
+    {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded", // ANGKA & KONSTANTA
+      "scope": [
+        "constant.numeric", // Angka (123, 45.6)
+        "constant.language", // true, false, null
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "variable.parameter", // Parameter function
+        "keyword.other.unit",
+        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#4A9EFF" // Orange
+      }
+    },
+    {
+      "name": "String, Symbols, Inherited Class, Markup Heading", // STRING & HEADING
+      "scope": [
+        "string", // "Hello World"
+        "constant.other.symbol",
+        "constant.other.key",
+        "entity.other.inherited-class",
+        "markup.heading", // # Heading di Markdown
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "foreground": "#CCC" // Hijau muda
+      }
+    },
+    {
+      "name": "Class, Support", // CLASS & TIPE DATA
+      "scope": [
+        "entity.name",
+        "support.type", // String, Number, Array
+        "support.class", // Class bawaan
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#FFF" // Kuning
+      }
+    },
+    {
+      "name": "Entity Types", // TIPE ENTITY
+      "scope": ["support.type"],
+      "settings": {
+        "foreground": "#FFF" // Biru pucat
+      }
+    },
+    {
+      "name": "CSS Class and Support", // CSS PROPERTIES
+      "scope": [
+        "source.css support.type.property-name", // color, background, dll
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#CCC" // Biru pucat
+      }
+    },
+    {
+      "name": "Sub-methods", // SUB-METHOD JS
+      "scope": [
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+      ],
+      "settings": {
+        "foreground": "#4A9EFF" // Merah
+      }
+    },
+    {
+      "name": "Language methods", // METHOD BAHASA (this, super)
+      "scope": ["variable.language"],
+      "settings": {
+        "fontStyle": "italic", // Miring
+        "foreground": "#4A9EFF" // Merah
+      }
+    },
+    {
+      "name": "entity.name.method.js", // METHOD JS
+      "scope": ["entity.name.method.js"],
+      "settings": {
+        "fontStyle": "italic", // Miring
+        "foreground": "#4A9EFF" // Biru muda
+      }
+    },
+    {
+      "name": "meta.method.js", // CLASS METHOD
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor"
+      ],
+      "settings": {
+        "foreground": "#4A9EFF" // Biru muda
+      }
+    },
+    {
+      "name": "Attributes", // ATRIBUT UMUM
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#CCC" // Ungu muda
+      }
+    },
+    {
+      "name": "HTML Attributes", // ATRIBUT HTML (class, id, dll)
+      "scope": [
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name"
+      ],
+      "settings": {
+        "fontStyle": "italic", // Miring
+        "foreground": "#CCC" // Kuning
+      }
+    },
+    {
+      "name": "CSS Classes", // CSS CLASS (.container)
+      "scope": ["entity.other.attribute-name.class"],
+      "settings": {
+        "foreground": "#CCC" // Kuning
+      }
+    },
+    {
+      "name": "CSS ID's", // CSS ID & SASS CONTROL
+      "scope": ["source.sass keyword.control"],
+      "settings": {
+        "foreground": "#4A9EFF" // Biru muda
+      }
+    },
+    {
+      "name": "Inserted", // GIT INSERTED
+      "scope": ["markup.inserted"],
+      "settings": {
+        "foreground": "#CCC" // Hijau
+      }
+    },
+    {
+      "name": "Deleted", // GIT DELETED
+      "scope": ["markup.deleted"],
+      "settings": {
+        "foreground": "#FFF" // Merah
+      }
+    },
+    {
+      "name": "Changed", // GIT CHANGED
+      "scope": ["markup.changed"],
+      "settings": {
+        "foreground": "#FFF" // Ungu
+      }
+    },
+    {
+      "name": "Regular Expressions", // REGEX
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#4A9EFF" // Cyan
+      }
+    },
+    {
+      "name": "Escape Characters", // ESCAPE CHAR (\n, \t)
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "foreground": "#4A9EFF" // Cyan
+      }
+    },
+    {
+      "name": "URL", // URL
+      "scope": ["*url*", "*link*", "*uri*"],
+      "settings": {
+        "fontStyle": "underline", // Garis bawah
+        "foreground": "#FFF" // Biru muda
+      }
+    },
+    {
+      "name": "Decorators", // DECORATOR (@override, dll)
+      "scope": [
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js"
+      ],
+      "settings": {
+        "fontStyle": "italic", // Miring
+        "foreground": "#4A9EFF" // Biru muda
+      }
+    },
+    {
+      "name": "ES7 Bind Operator", // BIND OPERATOR (::)
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "fontStyle": "italic", // Miring
+        "foreground": "#4A9EFF" // Merah
+      }
+    },
+
+    // === JSON NESTED COLORING (Warna berbeda tiap level) ===
+    {
+      "name": "JSON Key - Level 0", // JSON LEVEL 0
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#FFF" // Ungu
+      }
+    },
+    {
+      "name": "JSON Key - Level 1", // JSON LEVEL 1
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#EEE" // Kuning
+      }
+    },
+    {
+      "name": "JSON Key - Level 2", // JSON LEVEL 2
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#DDD" // Orange
+      }
+    },
+    {
+      "name": "JSON Key - Level 3", // JSON LEVEL 3
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#CCC" // Merah
+      }
+    },
+    {
+      "name": "JSON Key - Level 4", // JSON LEVEL 4
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BBB" // Coklat
+      }
+    },
+    {
+      "name": "JSON Key - Level 5", // JSON LEVEL 5
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#AAA" // Biru
+      }
+    },
+    {
+      "name": "JSON Key - Level 6", // JSON LEVEL 6
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#DDD" // Pink
+      }
+    },
+    {
+      "name": "JSON Key - Level 7", // JSON LEVEL 7
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#CCC" // Ungu (cycle back)
+      }
+    },
+    {
+      "name": "JSON Key - Level 8", // JSON LEVEL 8
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BBB" // Hijau
+      }
+    },
+
+    // === MARKDOWN SUPPORT ===
+    {
+      "name": "Markdown - Plain", // MARKDOWN TEXT BIASA
+      "scope": [
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown"
+      ],
+      "settings": {
+        "foreground": "#FFF" // Putih
+      }
+    },
+    {
+      "name": "Markdown - Markup Raw Inline", // MARKDOWN INLINE CODE
+      "scope": ["text.html.markdown markup.inline.raw.markdown"],
+      "settings": {
+        "foreground": "#4A9EFF" // Ungu
+      }
+    },
+    {
+      "name": "Markdown - Markup Raw Inline Punctuation", // MARKDOWN CODE TICKS
+      "scope": [
+        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
+      ],
+      "settings": {
+        "foreground": "#666" // Abu-abu
+      }
+    },
+    {
+      "name": "Markdown - Heading", // MARKDOWN HEADING (# ## ###)
+      "scope": [
+        "markdown.heading",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#FFF", // Hijau
+        "fontStyle": "bold" // Tebal
+      }
+    },
+    {
+      "name": "Markup - Italic", // MARKDOWN ITALIC
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic", // Miring
+        "foreground": "#FFF" // Pink
+      }
+    },
+    {
+      "name": "Markup - Bold", // MARKDOWN BOLD
+      "scope": ["markup.bold", "markup.bold string"],
+      "settings": {
+        "fontStyle": "bold", // Tebal
+        "foreground": "#FFF" // Pink
+      }
+    },
+    {
+      "name": "Markup - Bold-Italic", // MARKDOWN BOLD + ITALIC
+      "scope": [
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold",
+        "markup.bold markup.italic string",
+        "markup.italic markup.bold string",
+        "markup.quote markup.bold string"
+      ],
+      "settings": {
+        "fontStyle": "bold", // Tebal
+        "foreground": "#FFF" // Pink
+      }
+    },
+    {
+      "name": "Markup - Underline", // MARKDOWN UNDERLINE
+      "scope": ["markup.underline"],
+      "settings": {
+        "fontStyle": "underline", // Garis bawah
+        "foreground": "#FFF" // Orange
+      }
+    },
+    {
+      "name": "Markdown - Blockquote", // MARKDOWN BLOCKQUOTE (>)
+      "scope": ["markup.quote punctuation.definition.blockquote.markdown"],
+      "settings": {
+        "foreground": "#666" // Abu-abu
+      }
+    },
+    {
+      "name": "Markup - Quote", // MARKDOWN QUOTE CONTENT
+      "scope": ["markup.quote"],
+      "settings": {
+        "fontStyle": "italic", // Miring
+        "foreground": "#CCC" // Putih
+      }
+    },
+    {
+      "name": "Markdown - Link", // MARKDOWN LINK
+      "scope": ["string.other.link.title.markdown"],
+      "settings": {
+        "foreground": "#4A9EFF" // Biru
+      }
+    },
+    {
+      "name": "Markdown - Link Description", // MARKDOWN LINK DESCRIPTION
+      "scope": ["string.other.link.description.title.markdown"],
+      "settings": {
+        "foreground": "#CCC" // Ungu
+      }
+    },
+    {
+      "name": "Markdown - Link Anchor", // MARKDOWN LINK ANCHOR
+      "scope": ["constant.other.reference.link.markdown"],
+      "settings": {
+        "foreground": "#4A9EFF" // Kuning
+      }
+    },
+    {
+      "name": "Markup - Raw Block", // MARKDOWN RAW BLOCK
+      "scope": ["markup.raw.block"],
+      "settings": {
+        "foreground": "#4A9EFF" // Ungu
+      }
+    },
+    {
+      "name": "Markdown - Raw Block Fenced", // MARKDOWN CODE BLOCK (```)
+      "scope": ["markup.raw.block.fenced.markdown"],
+      "settings": {
+        "foreground": "#00000050" // Transparan
+      }
+    },
+    {
+      "name": "Markdown - Fenced Bode Block", // MARKDOWN CODE FENCE
+      "scope": ["punctuation.definition.fenced.markdown"],
+      "settings": {
+        "foreground": "#666" // Transparan
+      }
+    },
+    {
+      "name": "Markdown - Fenced Bode Block Variable", // MARKDOWN CODE CONTENT
+      "scope": [
+        "markup.raw.block.fenced.markdown",
+        "variable.language.fenced.markdown",
+        "punctuation.section.class.end"
+      ],
+      "settings": {
+        "foreground": "#FFF" // Putih
+      }
+    },
+    {
+      "name": "Markdown - Fenced Language", // MARKDOWN CODE LANGUAGE (```js)
+      "scope": ["variable.language.fenced.markdown"],
+      "settings": {
+        "foreground": "#666" // Abu-abu
+      }
+    },
+    {
+      "name": "Markdown - Separator", // MARKDOWN SEPARATOR (---)
+      "scope": ["meta.separator"],
+      "settings": {
+        "fontStyle": "bold", // Tebal
+        "foreground": "#666" // Abu-abu
+      }
+    },
+    {
+      "name": "Markup - Table", // MARKDOWN TABLE
+      "scope": ["markup.table"],
+      "settings": {
+        "foreground": "#FFF" // Putih
+      }
+    }
+  ]
+}
