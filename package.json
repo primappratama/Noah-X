@@ -3,7 +3,7 @@
   "displayName": "Noah X",
   "publisher": "primappratamaa",
   "description": "Dark theme with muted colors, designed for comfort and focus.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.102.0"
   },
