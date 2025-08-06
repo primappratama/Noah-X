@@ -1,6 +1,6 @@
 {
-  "name": "noah-x",
-  "displayName": "Noah X",
+  "name": "nvrmd-theme",
+  "displayName": "nvrmd.",
   "publisher": "primappratamaa",
   "icon": "icon.png",
   "description": "Dark theme with muted colors, designed for comfort and focus.",
@@ -14,7 +14,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Noah Theme",
+        "label": "nvrmd.",
         "uiTheme": "vs-dark",
         "path": "./themes/Noah Theme-color-theme.json"
       }
