@@ -16,7 +16,7 @@
 			{
 				"label": "nvrmd.",
 				"uiTheme": "vs-dark", // Tipe UI yang didukung
-				"path": "./themes/Noah Theme-color-theme.json" // Path ke file tema
+				"path": "./themes/nvrmd-color-theme.json" // Path ke file tema
 			}
 		]
 	}, // Kontribusi tema

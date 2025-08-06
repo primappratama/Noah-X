@@ -16,7 +16,7 @@
       {
         "label": "nvrmd.",
         "uiTheme": "vs-dark",
-        "path": "./themes/Noah Theme-color-theme.json"
+        "path": "./themes/nvrmd-color-theme.json"
       }
     ]
   }
