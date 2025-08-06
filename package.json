@@ -1,7 +1,8 @@
 {
-  "name": "noah-theme",
-  "displayName": "Noah Theme",
-  "description": "Minimalist Theme for Coding",
+  "name": "noah-x",
+  "displayName": "Noah X",
+  "publisher": "primappratamaa",
+  "description": "Dark theme with muted colors, designed for comfort and focus.",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.102.0"
