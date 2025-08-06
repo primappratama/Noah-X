@@ -1,19 +1,15 @@
-# Noah X
+## Noah X
 
-Dark theme with muted colors, designed for comfort and focus.
-
-## Features
-- 🖤 Pure black backgrounds
-- 🤍 Clean white text
-- 🔵 Blue accent for syntax highlighting
-- 👁️ Eye-friendly minimal colors
-- 💼 Professional look
+Noah X is a dark minimalist-like theme with blue tones.
 
 ## Installation
-1. Open Extensions panel (Ctrl+Shift+X)
-2. Search "Noah X"
-3. Click Install
-4. Select theme: Ctrl+K Ctrl+T → "Noah X"
+1. Open Extensions on the sidebar (Ctrl+Shift+X)
+2. Search for "Noah X"
+3. Install it
+4. Reload the editor
+5. Select theme: Ctrl+K Ctrl+T → "Noah X"
+6. Pick "Noah X" one from the list and hit enter
+7. Enjoy!
 
 ## Screenshots
 ![Screenshot](screenshot.png)
