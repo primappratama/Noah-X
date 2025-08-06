@@ -3,6 +3,7 @@
   "name": "noah-x", // ID internal theme
   "displayName": "Noah X", // Nama yang muncul di VS Code
 	"description": "Dark theme with muted colors, designed for comfort and focus.", // Deskripsi tema
+  "icon": "icon.png", // Icon tema (opsional)
 	"version": "1.0.0", // Versi tema
 	"publisher": "primappratamaa", // Nama publisher
 	"engines": {
