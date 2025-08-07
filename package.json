@@ -1,12 +1,12 @@
 {
-  "name": "noah-x-theme",
+  "name": "nvrmd-theme",
   "displayName": "nvrmd.",
   "publisher": "primappratamaa",
   "icon": "icon.png",
   "description": "Dark theme with muted colors, designed for comfort and focus.",
   "version": "0.2.0",
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^0.1.0"
   },
   "categories": [
     "Themes"

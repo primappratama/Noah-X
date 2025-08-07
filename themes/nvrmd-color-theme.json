@@ -1,13 +1,13 @@
 {
   // === THEME INFO ===
-  "name": "noah-x-theme", // ID internal theme
+  "name": "nvrmd-theme", // ID internal theme
   "displayName": "nvrmd.", // Nama yang muncul di VS Code
 	"description": "Dark theme with muted colors, designed for comfort and focus.", // Deskripsi tema
   "icon": "icon.png", // Icon tema (opsional)
 	"version": "1.0.0", // Versi tema
 	"publisher": "primappratamaa", // Nama publisher
 	"engines": {
-		"vscode": "^1.60.0" // Versi minimum VS Code yang didukung
+		"vscode": "^0.1.0" // Versi minimum VS Code yang didukung
 	}, // Versi engine yang didukung
 	"categories": ["Themes"], // Kategori tema
 	"keywords": ["dark", "nevermind", "theme", "color", "nvrmd"], // Kata kunci untuk pencarian
@@ -22,7 +22,7 @@
 	}, // Kontribusi tema
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/primappratama/Noah-X.git"
+		"url": "https://github.com/primappratama/nvrmd..git"
 	},
 	"license": "MIT",
   "type": "dark", // Tipe theme (dark/light)
