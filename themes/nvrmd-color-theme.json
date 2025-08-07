@@ -1,6 +1,6 @@
 {
   // === THEME INFO ===
-  "name": "nvrmd-theme", // ID internal theme
+  "name": "noah-x-theme", // ID internal theme
   "displayName": "nvrmd.", // Nama yang muncul di VS Code
 	"description": "Dark theme with muted colors, designed for comfort and focus.", // Deskripsi tema
   "icon": "icon.png", // Icon tema (opsional)
