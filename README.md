@@ -1,6 +1,6 @@
 ## nvrmd.
 
-Noah X is a dark minimalist-like theme with blue tones.
+nvrmd. is a dark minimalist-like theme with blue tones.
 
 ## Installation
 1. Open Extensions on the sidebar (Ctrl+Shift+X)
